@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "thyrium_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simpleores:thyrium_nugget"
+    }
+  },
+  "result": {
+    "item": "simpleores:thyrium_ingot"
+  }
+}

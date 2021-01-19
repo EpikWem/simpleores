@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bronze_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simpleores:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "simpleores:bronze_block"
+  }
+}

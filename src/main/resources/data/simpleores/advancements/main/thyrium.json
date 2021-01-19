@@ -1,0 +1,43 @@
+
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:thyrium_ingot"
+        },
+        "title": {
+            "translate": "advancements.thyrium_ach"
+        },
+        "description": {
+            "translate": "advancements.thyrium_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/adamantium",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:thyrium_block",
+      		"simpleores:thyrium_nugget",
+      		"simpleores:thyrium_pickaxe",
+      		"simpleores:thyrium_bow",
+      		"simpleores:thyrium_hoe",
+      		"simpleores:thyrium_sword",
+      		"simpleores:thyrium_axe",
+      		"simpleores:thyrium_shovel",
+      		"simpleores:thyrium_helmet",
+      		"simpleores:thyrium_chestplate",
+      		"simpleores:thyrium_leggings",
+      		"simpleores:thyrium_boots"
+    	]
+  	},
+    "criteria" : {
+    	"got_mythril_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      				{"item" : "simpleores:thyrium_ingot"}
+      			]
+      		}
+    	}
+    }
+}

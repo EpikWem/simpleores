@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simpleores:thyrium_block"
+    }
+  ],
+  "result": {
+    "item": "simpleores:thyrium_ingot",
+    "count": 9
+  }
+}

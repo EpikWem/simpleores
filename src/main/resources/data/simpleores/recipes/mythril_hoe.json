@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:mythril_hoe"
+	},
+	"pattern" : [
+		"SS ",
+		" T ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "tag" :"forge:ingots/mythril"},
+		"T" : { "tag" :"forge:rods/wooden"}
+	}
+}

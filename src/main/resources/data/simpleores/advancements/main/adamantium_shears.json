@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:adamantium_shears"
+        },
+        "title": {
+            "translate": "advancements.adamantium_shears_ach"
+        },
+        "description": {
+            "translate": "advancements.adamantium_shears_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/adamantium_ore",
+    "criteria" : {
+    	"got_adamantium_shears" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:adamantium_shears"}
+      			]
+      		}
+    	}
+    }
+}

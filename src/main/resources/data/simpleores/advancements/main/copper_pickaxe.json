@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:copper_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.copper_pick_ach"
+        },
+        "description": {
+            "translate": "advancements.copper_pick_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/copper_ore",
+    "criteria" : {
+    	"got_copper_pickaxe" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:copper_pickaxe"}
+      			]
+      		}
+    	}
+    }
+}

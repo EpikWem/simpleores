@@ -1,0 +1,13 @@
+{
+	"result" : {
+		"item" : "simpleores:onyx_boots"
+	},
+	"pattern" : [
+		"S S",
+		"S S"
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "tag" :"forge:gems/onyx"}
+	}
+}

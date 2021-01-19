@@ -1,0 +1,14 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"S S",
+		"SSS",
+		"SSS"
+	],
+	"key" : {
+		"S" : { "item" : "simpleores:bronze_ingot"}
+	},
+	"result" : {
+		"item" : "simpleores:bronze_chestplate"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:bronze_pickaxe"
+	},
+	"pattern" : [
+		"SSS",
+		" T ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "item" : "simpleores:bronze_ingot"},
+		"T" : { "item" : "minecraft:stick"}
+	}
+}

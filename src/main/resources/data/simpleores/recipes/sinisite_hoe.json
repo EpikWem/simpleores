@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:sinisite_hoe"
+	},
+	"pattern" : [
+		"SS ",
+		" T ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "item" : "simpleores:sinisite_ingot"},
+		"T" : { "item" : "minecraft:stick"}
+	}
+}

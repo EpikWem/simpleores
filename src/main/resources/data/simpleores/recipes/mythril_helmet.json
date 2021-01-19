@@ -1,0 +1,13 @@
+{
+	"result" : {
+		"item" : "simpleores:mythril_helmet"
+	},
+	"pattern" : [
+		"SSS",
+		"S S"
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "tag" :"forge:ingots/mythril"}
+	}
+}

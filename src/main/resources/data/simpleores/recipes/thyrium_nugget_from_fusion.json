@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fusion",
+  "ingredients": [
+    {
+      "item": "simpleores:adamantium_ingot"
+    },
+    {
+      "item": "simpleores:mythril_ingot"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "simpleores:thyrium_nugget",
+    "count" : 5
+  }
+}

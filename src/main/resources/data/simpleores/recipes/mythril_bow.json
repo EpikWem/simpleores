@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"result" : {
+		"item" : "simpleores:mythril_bow"
+	},
+	"pattern" : [
+		" XY", 
+		"Z Y", 
+		" XY"
+	],
+	"key" : {
+		"X" : { "tag" :"forge:rods/mythril"},
+		"Y" : { "item" : "minecraft:string"},
+		"Z" : { "item" : "minecraft:iron_ingot"}
+	}
+}

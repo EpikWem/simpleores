@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:mythril_axe"
+        },
+        "title": {
+            "translate": "advancements.mythril_axe_ach"
+        },
+        "description": {
+            "translate": "advancements.mythril_axe_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/mythril_ore",
+    "criteria" : {
+    	"got_mythril_axe" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:mythril_axe"}
+      			]
+      		}
+    	}
+    }
+}

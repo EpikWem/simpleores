@@ -1,0 +1,13 @@
+{
+	"result" : {
+		"item" : "simpleores:thyrium_rod"
+	},
+	"pattern" : [
+		"S",
+		"S"
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "item" :"simpleores:thyrium_ingot"}
+	}
+}

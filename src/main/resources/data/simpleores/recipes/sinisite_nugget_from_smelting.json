@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "simpleores:sinisite_pickaxe"
+    },
+    {
+      "item": "simpleores:sinisite_shovel"
+    },
+    {
+      "item": "simpleores:sinisite_axe"
+    },
+    {
+      "item": "simpleores:sinisite_hoe"
+    },
+    {
+      "item": "simpleores:sinisite_sword"
+    },
+    {
+      "item": "simpleores:sinisite_helmet"
+    },
+    {
+      "item": "simpleores:sinisite_chestplate"
+    },
+    {
+      "item": "simpleores:sinisite_leggings"
+    },
+    {
+      "item": "simpleores:sinisite_boots"
+    }
+  ],
+  "result": "simpleores:sinisite_nugget",
+  "experience": 0.3,
+  "cookingtime": 200
+}

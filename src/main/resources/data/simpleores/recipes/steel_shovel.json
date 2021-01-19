@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:steel_shovel"
+	},
+	"pattern" : [
+		" S ",
+		" T ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "item" : "simpleores:steel_ingot"},
+		"T" : { "item" : "minecraft:stick"}
+	}
+}

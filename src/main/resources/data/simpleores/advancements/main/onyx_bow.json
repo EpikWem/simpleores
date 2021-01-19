@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:onyx_bow"
+        },
+        "title": {
+            "translate": "advancements.onyx_bow_ach"
+        },
+        "description": {
+            "translate": "advancements.onyx_bow_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/onyx_ore",
+    "criteria" : {
+    	"got_onyx_bow" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:onyx_bow"}
+      			]
+      		}
+    	}
+    }
+}

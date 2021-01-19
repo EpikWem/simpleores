@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"result" : {
+		"item" : "simpleores:thyrium_bow"
+	},
+	"pattern" : [
+		" XY", 
+		"Z Y", 
+		" XY"
+	],
+	"key" : {
+		"X" : { "item" : "simpleores:thyrium_rod"},
+		"Y" : { "item" : "minecraft:string"},
+		"Z" : { "item" : "minecraft:gold_ingot"}
+	}
+}

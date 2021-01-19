@@ -1,0 +1,43 @@
+
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:steel_ingot"
+        },
+        "title": {
+            "translate": "advancements.steel_ach"
+        },
+        "description": {
+            "translate": "advancements.steel_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "minecraft:misc/iron_ingot",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:steel_block",
+      		"simpleores:steel_nugget",
+      		"simpleores:steel_pickaxe",
+      		"simpleores:steel_bow",
+      		"simpleores:steel_hoe",
+      		"simpleores:steel_sword",
+      		"simpleores:steel_axe",
+      		"simpleores:steel_shovel",
+      		"simpleores:steel_helmet",
+      		"simpleores:steel_chestplate",
+      		"simpleores:steel_leggings",
+      		"simpleores:steel_boots"
+    	]
+  	},
+    "criteria" : {
+    	"got_mythril_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      				{"item" : "simpleores:steel_ingot"}
+      			]
+      		}
+    	}
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"result" : {
+		"item" : "simpleores:onyx_bow"
+	},
+	"pattern" : [
+		" XY", 
+		"Z Y", 
+		" XY"
+	],
+	"key" : {
+		"X" : { "tag" :"forge:rods/onyx"},
+		"Y" : { "item" : "minecraft:string"},
+		"Z" : { "item" : "minecraft:diamond"}
+	}
+}

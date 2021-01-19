@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "simpleores:steel_pickaxe"
+    },
+    {
+      "item": "simpleores:steel_shovel"
+    },
+    {
+      "item": "simpleores:steel_axe"
+    },
+    {
+      "item": "simpleores:steel_hoe"
+    },
+    {
+      "item": "simpleores:steel_sword"
+    },
+    {
+      "item": "simpleores:steel_helmet"
+    },
+    {
+      "item": "simpleores:steel_chestplate"
+    },
+    {
+      "item": "simpleores:steel_leggings"
+    },
+    {
+      "item": "simpleores:steel_boots"
+    }
+  ],
+  "result": "simpleores:steel_nugget",
+  "experience": 0.3,
+  "cookingtime": 200
+}

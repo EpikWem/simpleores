@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model" : "simpleores:block/tin_block" }
+	}
+}

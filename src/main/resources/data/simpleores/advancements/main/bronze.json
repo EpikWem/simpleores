@@ -1,0 +1,43 @@
+
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:bronze_ingot"
+        },
+        "title": {
+            "translate": "advancements.bronze_ach"
+        },
+        "description": {
+            "translate": "advancements.bronze_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/copper",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:bronze_block",
+      		"simpleores:bronze_nugget",
+      		"simpleores:bronze_pickaxe",
+      		"simpleores:bronze_bow",
+      		"simpleores:bronze_hoe",
+      		"simpleores:bronze_sword",
+      		"simpleores:bronze_axe",
+      		"simpleores:bronze_shovel",
+      		"simpleores:bronze_helmet",
+      		"simpleores:bronze_chestplate",
+      		"simpleores:bronze_leggings",
+      		"simpleores:bronze_boots"
+    	]
+  	},
+    "criteria" : {
+    	"got_mythril_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      				{"item" : "simpleores:bronze_ingot"}
+      			]
+      		}
+    	}
+    }
+}

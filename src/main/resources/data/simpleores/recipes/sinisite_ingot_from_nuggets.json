@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sinisite_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simpleores:sinisite_nugget"
+    }
+  },
+  "result": {
+    "item": "simpleores:sinisite_ingot"
+  }
+}

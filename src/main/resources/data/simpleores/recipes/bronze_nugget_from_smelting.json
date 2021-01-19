@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "simpleores:bronze_pickaxe"
+    },
+    {
+      "item": "simpleores:bronze_shovel"
+    },
+    {
+      "item": "simpleores:bronze_axe"
+    },
+    {
+      "item": "simpleores:bronze_hoe"
+    },
+    {
+      "item": "simpleores:bronze_sword"
+    },
+    {
+      "item": "simpleores:bronze_helmet"
+    },
+    {
+      "item": "simpleores:bronze_chestplate"
+    },
+    {
+      "item": "simpleores:bronze_leggings"
+    },
+    {
+      "item": "simpleores:bronze_boots"
+    }
+  ],
+  "result": "simpleores:bronze_nugget",
+  "experience": 0.3,
+  "cookingtime": 200
+}

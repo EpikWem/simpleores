@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:thyrium_pickaxe"
+	},
+	"pattern" : [
+		"SSS",
+		" T ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "item" : "simpleores:thyrium_ingot"},
+		"T" : { "item" : "minecraft:stick"}
+	}
+}

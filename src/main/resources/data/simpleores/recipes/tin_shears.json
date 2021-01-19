@@ -1,0 +1,13 @@
+{
+	"result" : {
+		"item" : "simpleores:tin_shears"
+	},
+	"pattern" : [
+		"S ",
+		" S"
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "tag" :"forge:ingots/tin"}
+	}
+}

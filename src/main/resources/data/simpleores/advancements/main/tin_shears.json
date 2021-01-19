@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:tin_shears"
+        },
+        "title": {
+            "translate": "advancements.tin_shears_ach"
+        },
+        "description": {
+            "translate": "advancements.tin_shears_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/tin_ore",
+    "criteria" : {
+    	"got_tin_shears" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:tin_shears"}
+      			]
+      		}
+    	}
+    }
+}

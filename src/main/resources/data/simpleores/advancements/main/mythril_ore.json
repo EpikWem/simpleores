@@ -1,0 +1,31 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:mythril_ore"
+        },
+        "title": {
+            "translate": "advancements.mythril_ach"
+        },
+        "description": {
+            "translate": "advancements.mythril_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/tin_ore",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:mythril_block", "simpleores:mythril_ingot"
+    	]
+  	},
+    "criteria" : {
+    	"got_mythril_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:mythril_ore"}
+      			]
+      		}
+    	}
+    }
+}

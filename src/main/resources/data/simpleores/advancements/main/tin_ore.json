@@ -1,0 +1,31 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:tin_ore"
+        },
+        "title": {
+            "translate": "advancements.tin_ach"
+        },
+        "description": {
+            "translate": "advancements.tin_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/copper_ore",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:tin_block", "simpleores:tin_ingot"
+    	]
+  	},
+    "criteria" : {
+    	"got_tin_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:tin_ore"}
+      			]
+      		}
+    	}
+    }
+}

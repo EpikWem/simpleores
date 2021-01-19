@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simpleores:sinisite_ingot"
+    }
+  ],
+  "result": {
+    "item": "simpleores:sinisite_nugget",
+    "count": 9
+  }
+}

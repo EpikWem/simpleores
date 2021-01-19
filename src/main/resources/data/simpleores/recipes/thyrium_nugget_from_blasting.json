@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "simpleores:thyrium_pickaxe"
+    },
+    {
+      "item": "simpleores:thyrium_shovel"
+    },
+    {
+      "item": "simpleores:thyrium_axe"
+    },
+    {
+      "item": "simpleores:thyrium_hoe"
+    },
+    {
+      "item": "simpleores:thyrium_sword"
+    },
+    {
+      "item": "simpleores:thyrium_helmet"
+    },
+    {
+      "item": "simpleores:thyrium_chestplate"
+    },
+    {
+      "item": "simpleores:thyrium_leggings"
+    },
+    {
+      "item": "simpleores:thyrium_boots"
+    }
+  ],
+  "result": "simpleores:thyrium_nugget",
+  "experience": 0.3,
+  "cookingtime": 100
+}

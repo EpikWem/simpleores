@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:copper_bucket"
+        },
+        "title": {
+            "translate": "advancements.copper_bucket_ach"
+        },
+        "description": {
+            "translate": "advancements.copper_bucket_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/copper_ore",
+    "criteria" : {
+    	"got_copper_bucket" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:copper_bucket"}
+      			]
+      		}
+    	}
+    }
+}

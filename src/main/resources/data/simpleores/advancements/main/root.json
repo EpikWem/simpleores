@@ -1,0 +1,22 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:copper_ore"
+        },
+        "title": {
+            "translate": "advancements.welcome"
+        },
+        "description": {
+            "translate": "advancements.welcome"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria" : {
+    	"impossible" : {
+      		"trigger": "minecraft:impossible"
+    	}
+    }
+}
+ 

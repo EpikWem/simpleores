@@ -1,0 +1,15 @@
+{
+	"result" : {
+		"item" : "simpleores:onyx_sword"
+	},
+	"pattern" : [
+		" S ",
+		" S ",
+		" T "
+	],
+	"type" : "minecraft:crafting_shaped",
+	"key" : {
+		"S" : { "tag" :"forge:gems/onyx"},
+		"T" : { "tag" :"forge:rods/wooden"}
+	}
+}

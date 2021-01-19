@@ -1,0 +1,17 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"result" : {
+		"item" : "simpleores:sinisite_bow"
+	},
+	"pattern" : [
+		" XY", 
+		"ZFY", 
+		" XY"
+	],
+	"key" : {
+		"X" : { "item" : "simpleores:sinisite_rod"},
+		"Y" : { "item" : "minecraft:string"},
+		"Z" : { "item" : "minecraft:diamond"},
+		"F" : { "item" : "minecraft:flint_and_steel"}
+	}
+}

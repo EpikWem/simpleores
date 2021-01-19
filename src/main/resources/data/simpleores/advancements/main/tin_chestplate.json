@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:tin_chestplate"
+        },
+        "title": {
+            "translate": "advancements.tin_chestplate_ach"
+        },
+        "description": {
+            "translate": "advancements.tin_chestplate_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/tin_ore",
+    "criteria" : {
+    	"got_tin_chest" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:tin_chestplate"}
+      			]
+      		}
+    	}
+    }
+}

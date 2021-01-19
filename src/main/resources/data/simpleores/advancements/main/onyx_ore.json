@@ -1,0 +1,31 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:onyx_ore"
+        },
+        "title": {
+            "translate": "advancements.onyx_ach"
+        },
+        "description": {
+            "translate": "advancements.onyx_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/adamantium_ore",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:onyx_block", "simpleores:onyx_gem"
+    	]
+  	},
+    "criteria" : {
+    	"got_onyx_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:onyx_ore"}
+      			]
+      		}
+    	}
+    }
+}

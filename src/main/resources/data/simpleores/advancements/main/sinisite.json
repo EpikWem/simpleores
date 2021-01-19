@@ -1,0 +1,43 @@
+
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:sinisite_ingot"
+        },
+        "title": {
+            "translate": "advancements.sinisite_ach"
+        },
+        "description": {
+            "translate": "advancements.sinisite_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/onyx_ore",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:sinisite_block",
+      		"simpleores:sinisite_nugget",
+      		"simpleores:sinisite_pickaxe",
+      		"simpleores:sinisite_bow",
+      		"simpleores:sinisite_hoe",
+      		"simpleores:sinisite_sword",
+      		"simpleores:sinisite_axe",
+      		"simpleores:sinisite_shovel",
+      		"simpleores:sinisite_helmet",
+      		"simpleores:sinisite_chestplate",
+      		"simpleores:sinisite_leggings",
+      		"simpleores:sinisite_boots"
+    	]
+  	},
+    "criteria" : {
+    	"got_mythril_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      				{"item" : "simpleores:sinisite_ingot"}
+      			]
+      		}
+    	}
+    }
+}

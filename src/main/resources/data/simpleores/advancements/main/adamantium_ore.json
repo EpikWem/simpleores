@@ -1,0 +1,31 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:adamantium_ore"
+        },
+        "title": {
+            "translate": "advancements.adamantium_ach"
+        },
+        "description": {
+            "translate": "advancements.adamantium_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/mythril_ore",
+   	"rewards": {
+    	"recipes": [
+      		"simpleores:adamantium_block", "simpleores:adamantium_ingot"
+    	]
+  	},
+    "criteria" : {
+    	"got_adamantium_ore" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:adamantium_ore"}
+      			]
+      		}
+    	}
+    }
+}

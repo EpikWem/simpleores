@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:sinisite_helmet"
+        },
+        "title": {
+            "translate": "advancements.sinisite_helmet_ach"
+        },
+        "description": {
+            "translate": "advancements.sinisite_helmet_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/sinisite",
+    "criteria" : {
+    	"got_onyx_sword" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:sinisite_helmet"}
+      			]
+      		}
+    	}
+    }
+}

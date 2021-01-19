@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "simpleores:adamantium_leggings"
+        },
+        "title": {
+            "translate": "advancements.adamantium_legs_ach"
+        },
+        "description": {
+            "translate": "advancements.adamantium_legs_ach.desc"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "simpleores:main/adamantium_ore",
+    "criteria" : {
+    	"got_adamantium_legs" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "simpleores:adamantium_leggings"}
+      			]
+      		}
+    	}
+    }
+}
